@@ -15,5 +15,7 @@ namespace FM_Secrets_Web_App.Data
         public DbSet<HairProducts> HairProducts { get; set; }
         public DbSet<Cart> Cart { get; set; }
         public DbSet<Payment> Payment { get; set; }
+        public DbSet<Deliveries> Deliveries { get; set; } 
+
     }
 }
